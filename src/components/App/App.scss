@@ -1,0 +1,23 @@
+.product-list {
+  display: flex;
+  width: 1131px;
+  overflow-x: scroll;
+  .title-column {
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 180px;
+      height: 30px;
+      padding-left: 13px;
+      font-family: "Montserrat-Semibold";
+      font-size: 13px;
+      &:first-child {
+        height: 244px;
+      }
+      &:nth-child(even) {
+        background-color: #f4f2ee;
+      }
+    }
+  }
+}

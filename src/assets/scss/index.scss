@@ -1,0 +1,29 @@
+@import "reset.scss";
+@import "fonts.scss";
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 4px;
+  &.like {
+    padding: 0 13px;
+    border: 2px solid #FF9F9F;
+  }
+
+  &.buy {
+    padding: 0 21.5px;
+    background: #009900;
+    span {
+      padding-left: 10px;
+      font-family: "Proximanova-Semibold";
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}

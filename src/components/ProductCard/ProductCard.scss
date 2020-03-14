@@ -1,0 +1,116 @@
+.product-card {
+  width: 204px;
+  font-family: "Montserrat-Medium";
+  font-size: 12px;
+  & > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30px;
+    padding: 0 10px;
+    transition: 0.3s;
+    &:first-child {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+    &:last-child {
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+    &:nth-child(even) {
+      background-color: #f4f2ee;
+    }
+  }
+  &:hover {
+    transition: 0.3s;
+    & > li {
+      background-color: #fff9e6;
+      &:nth-child(2n) {
+        background-color: #f4ecd7;
+      }
+    }
+    .header .img {
+      background-color: #fff9e6;
+      transition: 0.3s;
+    }
+  }
+
+  .header {
+    padding: 10px 10px 0;
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      width: 180px;
+      height: 180px;
+      background-color: #f4f2ee;
+      border-radius: 10px;
+      transition: 0.3s;
+      img {
+        mix-blend-mode: darken;
+      }
+    }
+    h5 {
+      font-family: "Montserrat-Semibold";
+      font-size: 12px;
+      padding: 15px 0;
+    }
+  }
+
+  .rating {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .stars {
+      display: flex;
+      li {
+        margin-right: 5px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    span {
+      padding-left: 14px;
+      font-family: "Proximanova-Bold";
+      font-size: 15px;
+    }
+  }
+
+  .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .current-price {
+      font-family: "ProximaNova-Semibold";
+      font-size: 18px;
+      &.red {
+        color: #cc0000;
+      }
+    }
+    .old-price {
+      padding-right: 10px;
+      font-family: "ProximaNova-Regular";
+      font-size: 14px;
+      color: #948f88;
+      text-decoration: line-through;
+    }
+  }
+
+  .seller a {
+    color: #3f78d4;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .actions {
+    flex-direction: row;
+    padding: 15px 0;
+    .buy {
+      margin-left: 15px;
+    }
+  }
+}
