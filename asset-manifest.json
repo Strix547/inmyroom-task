@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/inmyroom-task/static/css/main.da20972e.chunk.css",
+    "main.js": "/inmyroom-task/static/js/main.53946ef5.chunk.js",
+    "main.js.map": "/inmyroom-task/static/js/main.53946ef5.chunk.js.map",
+    "runtime-main.js": "/inmyroom-task/static/js/runtime-main.0067050d.js",
+    "runtime-main.js.map": "/inmyroom-task/static/js/runtime-main.0067050d.js.map",
+    "static/js/2.5a7cf0e5.chunk.js": "/inmyroom-task/static/js/2.5a7cf0e5.chunk.js",
+    "static/js/2.5a7cf0e5.chunk.js.map": "/inmyroom-task/static/js/2.5a7cf0e5.chunk.js.map",
+    "index.html": "/inmyroom-task/index.html",
+    "precache-manifest.e0ccd1959c9e1c3b991546bbae1d6bdb.js": "/inmyroom-task/precache-manifest.e0ccd1959c9e1c3b991546bbae1d6bdb.js",
+    "service-worker.js": "/inmyroom-task/service-worker.js",
+    "static/css/main.da20972e.chunk.css.map": "/inmyroom-task/static/css/main.da20972e.chunk.css.map",
+    "static/js/2.5a7cf0e5.chunk.js.LICENSE.txt": "/inmyroom-task/static/js/2.5a7cf0e5.chunk.js.LICENSE.txt",
+    "static/media/cart.92c1560a.svg": "/inmyroom-task/static/media/cart.92c1560a.svg",
+    "static/media/heart.8b0126c6.svg": "/inmyroom-task/static/media/heart.8b0126c6.svg",
+    "static/media/index.scss": "/inmyroom-task/static/media/proximanova-semibold.df8c6264.ttf",
+    "static/media/sofa.png": "/inmyroom-task/static/media/sofa.6dfffeda.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0067050d.js",
+    "static/js/2.5a7cf0e5.chunk.js",
+    "static/css/main.da20972e.chunk.css",
+    "static/js/main.53946ef5.chunk.js"
+  ]
+}
