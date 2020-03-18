@@ -27,8 +27,8 @@ const products = Array(200).fill(null).map(() => ({
 export const App = () => {
   const productListRef = useRef(null)
   const [maxProducts, setMaxProducts] = useState(10)
-  
-  const onProductListScroll = useCallback((e => {
+
+  const onProductListScroll = useCallback(e => {
     const { scrollLeft, clientWidth, scrollWidth } = e.target
     
     const width = scrollWidth - clientWidth
@@ -37,8 +37,8 @@ export const App = () => {
     if (scrollPercent >= 0.9) {
       setMaxProducts(setMaxProducts => setMaxProducts + 10)
     }
-  }), [])
-
+  }, [])
+  
   useEffect(() => {
     productListRef.current.addEventListener('scroll', onProductListScroll)
   }, [onProductListScroll])
